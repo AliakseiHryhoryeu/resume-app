@@ -21,7 +21,7 @@ const initialState: IProjectState = {
 		// },
 		{
 			_id: 'LndingPageVPNUFO',
-			title: 'Landing page',
+			title: 'Landing page VPN-UFO',
 			text: 'Application owner can edit some sections in the admin panel',
 			tags: ['ReactJS', 'Redux', 'NestJS', 'GraphQL', 'MongoDB'],
 			buttons: {
@@ -68,6 +68,18 @@ const initialState: IProjectState = {
 			},
 		},
 		{
+			_id: 'Restaurant',
+			title: 'Restaurant',
+			text: 'Restaurant website design development ',
+			tags: ['Design', 'Figma'],
+			buttons: {
+				primaryBtn: {
+					text: 'View in Figma',
+					url: 'https://www.figma.com/file/A5xG3niRWFMeGiyIbwdpKz/Restaraunt?node-id=0%3A1',
+				},
+			},
+		},
+		{
 			_id: 'todolist',
 			title: 'To do list',
 			text: '',
@@ -84,22 +96,22 @@ const initialState: IProjectState = {
 			},
 		},
 
-		// {
-		// 	_id: 'FlowerShop',
-		// 	title: 'Flower Shop',
-		// 	text: '',
-		// 	tags: ['HTML', 'CSS', 'Bootstrap'],
-		// 	buttons: {
-		// 		primaryBtn: {
-		// 			text: 'Live Website',
-		// 			url: 'https://github.com/AliakseiHryhoryeu/Flower-shop',
-		// 		},
-		// 		secondaryBtn: {
-		// 			text: 'GitHub code',
-		// 			url: 'https://github.com/AliakseiHryhoryeu/Revizorro-Landing-page',
-		// 		},
-		// 	},
-		// },
+		{
+			_id: 'FlowerShop',
+			title: 'Flower Shop',
+			text: '',
+			tags: ['HTML', 'CSS', 'Bootstrap'],
+			buttons: {
+				primaryBtn: {
+					text: 'Live Website',
+					url: 'https://github.com/AliakseiHryhoryeu/Flower-shop',
+				},
+				secondaryBtn: {
+					text: 'GitHub code',
+					url: 'https://github.com/AliakseiHryhoryeu/Revizorro-Landing-page',
+				},
+			},
+		},
 		{
 			_id: 'LaravelTournament',
 			title: 'Tournament table calculation',
@@ -141,6 +153,22 @@ const initialState: IProjectState = {
 			},
 		},
 		{
+			_id: 'LandingRevizoro',
+			title: 'Landing Page - Revizoro',
+			text: 'Cleaning company website development',
+			tags: ['HTML', 'CSS', 'Gulp', 'SCSS'],
+			buttons: {
+				primaryBtn: {
+					text: 'Live Website',
+					url: 'https://clean-landing-page.vercel.app/',
+				},
+				secondaryBtn: {
+					text: 'GitHub code',
+					url: 'https://github.com/AliakseiHryhoryeu/Revizorro-Landing-page',
+				},
+			},
+		},
+		{
 			_id: 'SoftwareEngineer',
 			title: 'Hotel employee software',
 			text: 'Graduation project - Software Engineer',
@@ -177,16 +205,16 @@ export const projectSlice = createSlice({
 	initialState,
 	reducers: {
 		getProject: (state, action: PayloadAction<IProject>) => {
-			state.push(action.payload)
+			// state.push(action.payload)
 		},
 		addProject: (state, action: PayloadAction<IProject>) => {
-			state.push(action.payload)
+			// state.push(action.payload)
 		},
 		editProject: (state, action: PayloadAction<IProject>) => {
-			state.push(action.payload)
+			// state.push(action.payload)
 		},
 		deleteProject: (state, action: PayloadAction<IProject>) => {
-			state.push(action.payload)
+			// state.push(action.payload)
 		},
 	},
 })

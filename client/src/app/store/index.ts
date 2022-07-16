@@ -12,3 +12,5 @@ export const store = configureStore({
 })
 
 export type TypeRootState = ReturnType<typeof store.getState>
+
+// updated useSelector -> useAppSelector in 'hooks' folder
