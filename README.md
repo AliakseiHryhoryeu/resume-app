@@ -15,4 +15,6 @@ https://www.figma.com/file/gOMnOQ1t96ItA3idbQ5V4l/portfolio-website
 
 ## Web-Site
 
-![Landing-page-preview](./preview.jpg)
+https://hryhoryeu.vercel.app/
+
+![My-Resume-preview](./preview.jpg)
