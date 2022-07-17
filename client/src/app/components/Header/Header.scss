@@ -5,7 +5,7 @@
 	justify-content: center;
 	background-color: #f5f7f8;
 	&__wrapper {
-		width: 1440px;
+		width: var(--wrapper_width);
 		min-height: 90px;
 		display: flex;
 		flex-direction: row;
@@ -22,8 +22,12 @@
 		letter-spacing: 0.02em;
 	}
 	&__cv {
+		min-width: 84px;
+		margin-left: 10px;
 		padding: 15px 30px;
 		border: 1px solid #000000;
+		color: #000000;
+
 		border-radius: 50px;
 		cursor: pointer;
 
@@ -32,9 +36,33 @@
 		font-size: 20px;
 		line-height: 24px;
 		text-decoration: none;
-		color: #000000;
 		&:hover {
 			transform: scale(1.02);
+		}
+	}
+}
+@media screen and (max-width: 600px) {
+	.header {
+		&__logo {
+			font-size: 28px;
+		}
+		&__cv {
+			border: 1px solid #313638;
+			background: none;
+			padding: 13px 20px;
+			font-weight: 400;
+			outline: none;
+			color: #313638;
+
+			font-size: 13px;
+		}
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.header {
+		&__wrapper {
+			margin: 0px 10px;
 		}
 	}
 }

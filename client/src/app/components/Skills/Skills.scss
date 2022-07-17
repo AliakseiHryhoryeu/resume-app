@@ -6,7 +6,7 @@
 	justify-content: center;
 	background-color: #f5f7f8;
 	&__wrapper {
-		width: 1440px;
+		width: var(--wrapper_width);
 		min-height: 80px;
 		display: flex;
 		flex-direction: column;
@@ -65,6 +65,40 @@
 			font-size: 18px;
 			font-weight: 600;
 			letter-spacing: -0.9px;
+		}
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.skills {
+		&__items {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+}
+@media only screen and (max-width: 540px) {
+	.skills {
+		&__title {
+			font-size: 34px;
+			margin-bottom: 0px;
+		}
+	}
+}
+@media screen and (max-width: 470px) {
+	.skills {
+		&__title {
+			font-size: 30px;
+		}
+		&__items {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.skills {
+		&__wrapper {
+			margin: 0 10px;
 		}
 	}
 }
