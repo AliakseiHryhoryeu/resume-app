@@ -5,7 +5,7 @@ import JavaScript from 'assets/img/skills/JavaScript.png'
 import TypeScript from 'assets/img/skills/TypeScript.png'
 import HTML from 'assets/img/skills/HTML.png'
 import CSS from 'assets/img/skills/CSS.png'
-import SCSS from 'assets/img/skills/JavaScript.png'
+import SCSS from 'assets/img/skills/SCSS.png'
 import ReactJS from 'assets/img/skills/ReactJS.png'
 import NextJS from 'assets/img/skills/NextJS.png'
 import Redux from 'assets/img/skills/Redux.png'
@@ -22,7 +22,7 @@ import Gulp from 'assets/img/skills/Gulp.png'
 import Git from 'assets/img/skills/Git.png'
 import GitHub from 'assets/img/skills/GitHub.png'
 import Postman from 'assets/img/skills/Postman.png'
-import Jira from 'assets/img/skills/Jira.png'
+// import Jira from 'assets/img/skills/Jira.png'
 import Figma from 'assets/img/skills/Figma.png'
 import AdobeXD from 'assets/img/skills/AdobeXD.png'
 import Photoshop from 'assets/img/skills/Photoshop.png'
@@ -134,11 +134,11 @@ const initialState: ISkillState = {
 			title: 'Postman',
 			img: Postman,
 		},
-		{
-			_id: 'Jira',
-			title: 'Jira',
-			img: Jira,
-		},
+		// {
+		// 	_id: 'Jira',
+		// 	title: 'Jira',
+		// 	img: Jira,
+		// },
 		{
 			_id: 'Figma',
 			title: 'Figma',

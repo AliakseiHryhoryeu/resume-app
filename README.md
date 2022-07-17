@@ -1,9 +1,9 @@
-# VPN-UFO
+# My-Resume
 
 #### Front end
 
 - ReactJS
-- Redux
+- Redux Toolkit
 - TypeScript
 - SCSS
 - Webpack
@@ -11,7 +11,7 @@
 
 ## Figma
 
-https://www.figma.com/file/Kis6CkWtqdEGzAx8cLiiid/VPN-ufo?node-id=0%3A1
+https://www.figma.com/file/gOMnOQ1t96ItA3idbQ5V4l/portfolio-website
 
 ## Web-Site
 

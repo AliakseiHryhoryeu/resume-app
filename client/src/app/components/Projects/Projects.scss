@@ -1,0 +1,131 @@
+.projects {
+	padding: 35px 0px;
+	padding-bottom: 70px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f5f7f8;
+	&__wrapper {
+		width: 1440px;
+		min-height: 80px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	&__title {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 65px;
+		line-height: 79px;
+		margin-bottom: 45px;
+		-webkit-background-clip: text;
+		color: transparent;
+		background-size: cover;
+		background-image: linear-gradient(
+			147deg,
+			#f90fd8,
+			#f54377 26%,
+			#fc1c1c 50%,
+			#ffc30d 75%,
+			#72fb59
+		);
+	}
+	&__items {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 50px;
+		font-family: 'Inter';
+	}
+	&__item {
+		background-color: #fff;
+		box-shadow: 2px 5px 38px 16px hsl(0deg 0% 85% / 11%);
+		position: relative;
+		min-height: 510px;
+		border-radius: 10px;
+		transition: 0.3s ease-in-out;
+		&:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 7px 50px -1px rgba(0, 76, 120, 0.112);
+		}
+
+		&-img {
+			width: 100%;
+			height: 260px;
+		}
+		&-wrapper {
+			padding: 0px 20px;
+			padding-top: 20px;
+		}
+		&-title {
+			font-weight: bold;
+			font-size: 25px;
+			letter-spacing: -0.6px;
+			color: #122746;
+			&:hover {
+				color: #061671;
+			}
+		}
+		&-text {
+			padding: 10px 0;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 1.6em;
+			color: #2a2e37;
+		}
+		&__tags {
+			margin-top: 5px;
+			margin-bottom: auto;
+			&-tag {
+				background: #f5f5f5;
+				padding: 5px 12px;
+				border-radius: 50px;
+				font-size: 14px;
+				display: inline-block;
+				margin-bottom: 10px;
+				margin-right: 10px;
+			}
+		}
+		&__buttons {
+			position: absolute;
+			bottom: 16px;
+			width: 90%;
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+			justify-content: space-between;
+			&-primary {
+				width: 49%;
+				background: #0b0643;
+				border: none;
+				margin-right: 10px;
+				padding: 15px;
+				color: #fff;
+				border-radius: 8px;
+				cursor: pointer;
+				transition: 0.3s ease-in-out;
+				text-align: center;
+				font-size: 14px;
+				&:hover {
+					background-color: #061671;
+				}
+			}
+			&-secondary {
+				width: 49%;
+				background: none;
+				border: 1px solid grey;
+				border-radius: 8px;
+				cursor: pointer;
+				transition: 0.3s ease-in-out;
+				padding: 15px;
+				text-align: center;
+				font-size: 14px;
+				color: #000000;
+				&:hover {
+					background: #f3f3f3;
+				}
+			}
+		}
+	}
+}

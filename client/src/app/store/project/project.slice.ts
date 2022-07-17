@@ -1,6 +1,19 @@
 import { IProject, IProjectState } from './project.types'
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
+import LndingPageVPNUFO from 'assets/img/projects/testProj1.png'
+import ReactApps from 'assets/img/projects/testProj2.png'
+import NoteList from 'assets/img/projects/testProj3.png'
+import Restaurant from 'assets/img/projects/testProj1.png'
+import Todolist from 'assets/img/projects/testProj2.png'
+import FlowerShop from 'assets/img/projects/testProj3.png'
+import LaravelTournament from 'assets/img/projects/testProj1.png'
+import ThemeForWPBlog from 'assets/img/projects/testProj2.png'
+import FreeTeamSpeak3Server from 'assets/img/projects/testProj3.png'
+import LandingRevizoro from 'assets/img/projects/testProj1.png'
+import SoftwareEngineer from 'assets/img/projects/testProj2.png'
+import CivilEngineer from 'assets/img/projects/testProj3.png'
+
 const initialState: IProjectState = {
 	projects: [
 		// {
@@ -23,6 +36,7 @@ const initialState: IProjectState = {
 			_id: 'LndingPageVPNUFO',
 			title: 'Landing page VPN-UFO',
 			text: 'Application owner can edit some sections in the admin panel',
+			img: LndingPageVPNUFO,
 			tags: ['ReactJS', 'Redux', 'NestJS', 'GraphQL', 'MongoDB'],
 			buttons: {
 				primaryBtn: {
@@ -39,6 +53,7 @@ const initialState: IProjectState = {
 			_id: 'ReactApps',
 			title: 'React Apps',
 			text: '5 mini apps in 1',
+			img: ReactApps,
 			tags: ['NextJS', 'ReactJS', 'TypeScript'],
 			buttons: {
 				primaryBtn: {
@@ -54,6 +69,7 @@ const initialState: IProjectState = {
 		{
 			_id: 'NoteList',
 			title: 'Note-List',
+			img: NoteList,
 			text: 'App for fast notes, saving in LocalStorage',
 			tags: ['ReactJS', 'Redux', 'TypeScript'],
 			buttons: {
@@ -71,6 +87,7 @@ const initialState: IProjectState = {
 			_id: 'Restaurant',
 			title: 'Restaurant',
 			text: 'Restaurant website design development ',
+			img: Restaurant,
 			tags: ['Design', 'Figma'],
 			buttons: {
 				primaryBtn: {
@@ -80,9 +97,10 @@ const initialState: IProjectState = {
 			},
 		},
 		{
-			_id: 'todolist',
+			_id: 'Todolist',
 			title: 'To do list',
-			text: '',
+			text: 'To do list, data is stored in the database',
+			img: Todolist,
 			tags: ['ReactJS', 'ExpressJS', 'MongoDB'],
 			buttons: {
 				primaryBtn: {
@@ -100,6 +118,7 @@ const initialState: IProjectState = {
 			_id: 'FlowerShop',
 			title: 'Flower Shop',
 			text: '',
+			img: FlowerShop,
 			tags: ['HTML', 'CSS', 'Bootstrap'],
 			buttons: {
 				primaryBtn: {
@@ -116,6 +135,7 @@ const initialState: IProjectState = {
 			_id: 'LaravelTournament',
 			title: 'Tournament table calculation',
 			text: 'Client-Server application',
+			img: LaravelTournament,
 			tags: ['PHP', 'Laravel', 'MySQL'],
 			buttons: {
 				primaryBtn: {
@@ -129,9 +149,10 @@ const initialState: IProjectState = {
 			},
 		},
 		{
-			_id: 'ThemeForWP-Blog',
+			_id: 'ThemeForWPBlog',
 			title: 'Theme for Wordpress',
 			text: 'Blog',
+			img: ThemeForWPBlog,
 			tags: ['PHP', 'WordPress'],
 			buttons: {
 				primaryBtn: {
@@ -144,6 +165,7 @@ const initialState: IProjectState = {
 			_id: 'FreeTeamSpeak3Server',
 			title: 'Free TeamSpeak server',
 			text: 'Automatic change of the server name in the browser to continue its existence',
+			img: FreeTeamSpeak3Server,
 			tags: ['C#', 'WPF', 'MySQL'],
 			buttons: {
 				primaryBtn: {
@@ -156,6 +178,7 @@ const initialState: IProjectState = {
 			_id: 'LandingRevizoro',
 			title: 'Landing Page - Revizoro',
 			text: 'Cleaning company website development',
+			img: LandingRevizoro,
 			tags: ['HTML', 'CSS', 'Gulp', 'SCSS'],
 			buttons: {
 				primaryBtn: {
@@ -172,6 +195,7 @@ const initialState: IProjectState = {
 			_id: 'SoftwareEngineer',
 			title: 'Hotel employee software',
 			text: 'Graduation project - Software Engineer',
+			img: SoftwareEngineer,
 			tags: ['C#', 'WPF', 'MySQL'],
 			buttons: {
 				primaryBtn: {
@@ -185,6 +209,7 @@ const initialState: IProjectState = {
 			_id: 'CivilEngineer',
 			title: 'Building plan of the Hotel',
 			text: 'Graduation project - Civil Engineer',
+			img: CivilEngineer,
 			tags: ['Autocad', 'Revit', 'Robot'],
 			buttons: {
 				primaryBtn: {

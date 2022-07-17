@@ -13,6 +13,7 @@ export interface IProject {
 	_id: string
 	title: string
 	text: string
+	img: string
 	tags: string[]
 	buttons: IProjectButtons
 }
