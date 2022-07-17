@@ -1,18 +1,18 @@
 import { IProject, IProjectState } from './project.types'
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
-import LndingPageVPNUFO from 'assets/img/projects/testProj1.png'
-import ReactApps from 'assets/img/projects/testProj2.png'
-import NoteList from 'assets/img/projects/testProj3.png'
-import Restaurant from 'assets/img/projects/testProj1.png'
-import Todolist from 'assets/img/projects/testProj2.png'
-import FlowerShop from 'assets/img/projects/testProj3.png'
-import LaravelTournament from 'assets/img/projects/testProj1.png'
-import ThemeForWPBlog from 'assets/img/projects/testProj2.png'
-import FreeTeamSpeak3Server from 'assets/img/projects/testProj3.png'
-import LandingRevizoro from 'assets/img/projects/testProj1.png'
-import SoftwareEngineer from 'assets/img/projects/testProj2.png'
-import CivilEngineer from 'assets/img/projects/testProj3.png'
+import LndingPageVPNUFO from 'assets/img/projects/VPNUFO-preview.jpg'
+import ReactApps from 'assets/img/projects/reactApps-preview.jpg'
+import NoteList from 'assets/img/projects/noteList-preview.jpg'
+import Restaurant from 'assets/img/projects/Restaraunt-preview.jpg'
+import Todolist from 'assets/img/projects/todolist-preview.jpg'
+import FlowerShop from 'assets/img/projects/flowerShop-preview.jpg'
+import LaravelTournament from 'assets/img/projects/LaravelTournament-preview.jpg'
+import ThemeForWPBlog from 'assets/img/projects/ThemeWPBlog-preview.jpg'
+import LandingRevizoro from 'assets/img/projects/revizoro-preview.jpg'
+import FreeTeamSpeak3Server from 'assets/img/projects/autorenamets3-preview.jpg'
+import SoftwareEngineer from 'assets/img/projects/softwareEngeener-preview.jpg'
+import CivilEngineer from 'assets/img/projects/civilEngeener-preview.jpg'
 
 const initialState: IProjectState = {
 	projects: [
@@ -88,7 +88,7 @@ const initialState: IProjectState = {
 			title: 'Restaurant',
 			text: 'Restaurant website design development ',
 			img: Restaurant,
-			tags: ['Design', 'Figma'],
+			tags: ['Design', 'UX/UI', 'Figma'],
 			buttons: {
 				primaryBtn: {
 					text: 'View in Figma',
@@ -113,7 +113,23 @@ const initialState: IProjectState = {
 				},
 			},
 		},
-
+		{
+			_id: 'LandingRevizoro',
+			title: 'Landing Page - Revizoro',
+			text: 'Cleaning company website development',
+			img: LandingRevizoro,
+			tags: ['HTML', 'CSS', 'Gulp', 'SCSS'],
+			buttons: {
+				primaryBtn: {
+					text: 'Live Website',
+					url: 'https://clean-landing-page.vercel.app/',
+				},
+				secondaryBtn: {
+					text: 'GitHub code',
+					url: 'https://github.com/AliakseiHryhoryeu/Revizorro-Landing-page',
+				},
+			},
+		},
 		{
 			_id: 'FlowerShop',
 			title: 'Flower Shop',
@@ -171,23 +187,6 @@ const initialState: IProjectState = {
 				primaryBtn: {
 					text: 'GitHub code',
 					url: 'https://github.com/AliakseiHryhoryeu/auto-rename-TeamSpeak3-server',
-				},
-			},
-		},
-		{
-			_id: 'LandingRevizoro',
-			title: 'Landing Page - Revizoro',
-			text: 'Cleaning company website development',
-			img: LandingRevizoro,
-			tags: ['HTML', 'CSS', 'Gulp', 'SCSS'],
-			buttons: {
-				primaryBtn: {
-					text: 'Live Website',
-					url: 'https://clean-landing-page.vercel.app/',
-				},
-				secondaryBtn: {
-					text: 'GitHub code',
-					url: 'https://github.com/AliakseiHryhoryeu/Revizorro-Landing-page',
 				},
 			},
 		},
