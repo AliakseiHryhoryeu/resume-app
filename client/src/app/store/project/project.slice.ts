@@ -41,7 +41,7 @@ const initialState: IProjectState = {
 			buttons: {
 				primaryBtn: {
 					text: 'Live Website',
-					url: 'https://www.google.com/',
+					url: 'https://github.com/AliakseiHryhoryeu/vpnufo-landing-page',
 				},
 				secondaryBtn: {
 					text: 'GitHub code',
@@ -212,11 +212,7 @@ const initialState: IProjectState = {
 			tags: ['Autocad', 'Revit', 'Robot'],
 			buttons: {
 				primaryBtn: {
-					text: 'See on Dribble',
-					url: 'https://www.google.com/',
-				},
-				secondaryBtn: {
-					text: 'GitHub code',
+					text: 'View in GitHub',
 					url: 'https://github.com/AliakseiHryhoryeu/graduate-work-construction-engineer',
 				},
 			},

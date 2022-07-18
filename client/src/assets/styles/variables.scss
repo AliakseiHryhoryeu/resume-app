@@ -1,4 +1,8 @@
 :root {
+	/* Fonts */
+	--body-font: 'Inter', -apple-system, system-ui, sans-serif;
+
+	/* Wrapper */
 	--wrapper_width: 1440px;
 	@media screen and (max-width: 1440px) {
 		--wrapper_width: 1200px;
@@ -15,33 +19,4 @@
 	@media screen and (max-width: 600px) {
 		--wrapper_width: 400px;
 	}
-	/* Fonts */
-	--body-font: 'Inter', -apple-system, system-ui, sans-serif;
-
-	--h1-fs: 6rem; // 96px
-	--h2-fs: 2.25rem; // 36px
-	--h3-fs: 1.5rem; // 24px
-	--h4-fs: 1.125rem; // 18px
-	--h5-fs: 0.875rem; // 14px
-
-	@media screen and (max-width: 500px) {
-		--h1-fs: 2.875rem; // 64px
-		--h2-fs: 2rem; // 32px
-		--h3-fs: 1.25rem; // 20px
-		--h4-fs: 1rem; //16px
-		--h5-fs: 0.75; //12px
-	}
-	--font-normal: 400;
-	--font-bold: 600;
-	--font-black: 900;
-
-	/* Margenes */
-	--m-0-2: 0.2rem;
-	--m-0-25: 0.25rem;
-	--m-0-5: 0.5rem;
-	--m-0-75: 0.75rem;
-	--m-1: 1rem;
-	--m-1-5: 1.5rem;
-	--m-2: 2rem;
-	--m-2-5: 2.5rem;
 }
